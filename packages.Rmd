@@ -1,0 +1,13 @@
+---
+title: "Packages"
+author: "Team 2"
+output: html_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "html") })
+---
+
+This is a page for recording all the packages we installed in our analysis.
+
+1. `tidyverse` (dplyR, tibble, readr,...): data analysis
+
+2. `rio`: import .xls, .xlsx file.

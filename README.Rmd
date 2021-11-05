@@ -1,0 +1,35 @@
+---
+title: "README"
+author: "Team 2"
+output: html_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "html") })
+---
+
+### Import data in the RStudio Cloud
+You can use the ```data = read.csv("./data/Weather_Europe.csv")```  or
+
+If it does not work, you can use 
+
+```{r loadDataset}
+setwd("~/../project")
+data = read.csv("data/Weather_Europe.csv")
+```
+
+### Clean the environment before each analysis
+
+You can click the "broom 🧹" button in the Environment panel. Or run the following chunk,
+
+```{r cleanEnvironment}
+rm(list = ls())
+```
+
+### Make knitr output to a different folder
+
+It avoids cluttering up the drive.
+
+```{r outputToOtherFolders}
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "FOLDERNAME") })
+```
+

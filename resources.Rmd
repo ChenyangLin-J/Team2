@@ -1,0 +1,22 @@
+---
+title: "Important Resources"
+author: "Team 2"
+output: html_document
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "html") })
+---
+## Recommended dataset:
+All these datasets is installed in the **data** folder.
+1. the government response data collected by a group at Oxford (I have uploaded the dataset to RStudio. The version is 97a4b5ccadfc15210864ecf5810697309f36aa57) (policy.csv)
+https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker#data
+2. GAPMINDER: Income per person (income.csv), Population (population.csv)
+3. weather data, which can be download for free from the National Climatic Data Center (only three European countries (Weather_Europe.csv) and Japan (Weather_Japan.csv))
+https://www.ncdc.noaa.gov/cdo-web/
+4. 
+
+## Website
+1. Different kinds of visualisations with graphs application and gallery. 
+https://www.data-to-viz.com/#connectedscatter
+
+2. An example of Covid-19 data analysis
+https://interactives.lowyinstitute.org/features/covid-performance/
